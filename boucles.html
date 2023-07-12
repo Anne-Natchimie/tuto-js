@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les boucles</title>
+
+    <script>
+
+        // let i = 0 ; 
+
+        // while (i < 10) {
+        //     console.log('Bonjour ' + i) ;
+        //     i = i + 1 ; 
+        // }
+
+        // for (let i = 0 ; i < 10 ; i++) {
+        //     console.log('Bonjour') ; 
+        // }
+
+        // const notes = [12, 13, 16, 8] ; 
+
+        // for (let i = 0 ; i < notes.length ; i++) {
+        //     console.log(i) ; 
+        // }
+
+        // const notes = [12, 13, 16, 8] ; 
+
+        // for (let i = 0 ; i < notes.length ; i++) {
+        //     console.log(notes[i]) ; 
+        // }
+
+        // const notes = [12, 13, 16, 8] ; 
+
+        // for (let i in notes) {
+        //     console.log(notes[i]) ; 
+        // }
+
+        // const notes = {
+        //     a : 1, 
+        //     b : 3
+        // } ; 
+
+        // for (let i in notes) {
+        //     console.log(notes[i]) ; 
+        // }
+
+        // const notes = [12, 16, 18, 17, 8] ; 
+
+        // const person = {
+        //     firstname : 'John', 
+        //     lastname : 'Doe'
+        // } ; 
+
+        // const greeting = 'Bonjour' ; 
+
+        // for (let letter in greeting) {
+        //     console.log(letter) ; 
+        // }
+
+        // let chiffre = prompt("Veuillez entrez un nombre") ; 
+
+        // if (chiffre > 10 || chiffre < 0) {
+        //     console.log("Le nombre n'est pas entre 0 et 10") ; 
+        // } else {
+        //     while (chiffre >= 0) {
+        //         console.log(chiffre) ; 
+        //         chiffre-- ; 
+        //     }
+        // }
+
+        // let chiffre = prompt("Veuillez entrez un nombre") ; 
+
+        // if (chiffre > 10 || chiffre < 0) {
+        //     console.log("Le nombre n'est pas entre 0 et 10") ; 
+        // } else {
+        //     for (let i = chiffre ; i >= 0 ; i--) {
+        //         console.log(i) ; 
+        //     }
+        // }
+
+        let guess = 8 ; 
+        let chiffre 
+
+        while(true) {
+            chiffre = prompt('Veuillez entrer un chiffre') * 1 ; 
+                if (chiffre < guess) {
+                    console.log('Le chiffre est plus élevé') ; 
+                } else if (chiffre > guess) {
+                    console.log('Le chiffre est moins élevé') ; 
+                } else {
+                    break
+                }
+        }
+        console.log('Bravo ! Vous avez deviné') ; 
+
+
+    </script>
+
+</head>
+<body>
+    
+</body>
+</html>
